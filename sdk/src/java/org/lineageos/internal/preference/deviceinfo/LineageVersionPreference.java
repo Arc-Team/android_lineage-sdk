@@ -18,6 +18,7 @@ package org.lineageos.internal.preference.deviceinfo;
 
 import android.content.Context;
 import android.content.Intent;
+import android.net.Uri;
 import android.os.SystemClock;
 import android.os.SystemProperties;
 import android.support.v7.preference.Preference;
@@ -34,10 +35,6 @@ public class LineageVersionPreference extends SelfRemovingPreference
     private static final String TAG = "LineageVersionPreference";
 
     private static final String KEY_LINEAGE_VERSION_PROP = "ro.modversion";
-
-    private static final String PLATLOGO_PACKAGE_NAME = "org.lineageos.lineageparts";
-    private static final String PLATLOGO_ACTIVITY_CLASS =
-            PLATLOGO_PACKAGE_NAME + ".logo.PlatLogoActivity";
 
     private long[] mHits = new long[3];
 
@@ -68,14 +65,14 @@ public class LineageVersionPreference extends SelfRemovingPreference
         System.arraycopy(mHits, 1, mHits, 0, mHits.length - 1);
         mHits[mHits.length - 1] = SystemClock.uptimeMillis();
         if (mHits[0] >= (SystemClock.uptimeMillis() - 500)) {
-            launchLogoActivity();
+            launchUrl("https://www.crdroid.net");
         }
         return true; // handled
     }
 
-    private void launchLogoActivity() {
-        final Intent intent = new Intent(Intent.ACTION_MAIN)
-                .setClassName(PLATLOGO_PACKAGE_NAME, PLATLOGO_ACTIVITY_CLASS);
+    private void launchUrl(String url) {
+        Uri uriUrl = Uri.parse(url);
+        Intent intent = new Intent(Intent.ACTION_VIEW, uriUrl);
         try {
             getContext().startActivity(intent);
         } catch (Exception e) {
