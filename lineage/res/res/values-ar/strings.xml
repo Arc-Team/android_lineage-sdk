@@ -17,8 +17,8 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <!-- Label for the LineageOS system components when they are shown to the user. -->
-    <string name="lineageos_system_label">نظام LineageOS</string>
+    <!-- Label for the crDroid system components when they are shown to the user. -->
+    <string name="lineageos_system_label">نظام crDroid</string>
     <!-- Labels for the MODIFY_PROFILES permission. -->
     <string name="permlab_modifyProfiles">تعديل الملفات التعريفية للنظام</string>
     <string name="permdesc_modifyProfiles">السماح للتطبيق بتعديل الملفات التعريفية للنظام.</string>
@@ -124,12 +124,12 @@
     <string name="permdesc_manageRemotePrefs">السماح للتطبيق بإدارة الإعدادات عن بعد</string>
     <!-- About device screen, build date -->
     <string name="build_date">تاريخ الإنشاء</string>
-    <!-- About device screen, LineageOS API Level -->
-    <string name="lineage_api_level">مستوى LineageOS API</string>
-    <!-- About device screen, LineageOS updates -->
-    <string name="lineage_updates">تحديثات LineageOS</string>
-    <!-- About device screen, LineageOS version -->
-    <string name="lineage_version">إصدار LineageOS</string>
+    <!-- About device screen, crDroid API Level -->
+    <string name="lineage_api_level">مستوى crDroid API</string>
+    <!-- About device screen, crDroid updates -->
+    <string name="lineage_updates">تحديثات crDroid</string>
+    <!-- About device screen, crDroid version -->
+    <string name="lineage_version">إصدار crDroid</string>
     <!-- About device screen, vendor security patch -->
     <string name="lineage_vendor_security_patch">‏مستوى رمز تصحيح أمان المورد</string>
     <!-- General purpose use "unknown" string -->

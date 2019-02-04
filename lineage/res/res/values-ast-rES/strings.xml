@@ -17,14 +17,14 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <!-- Label for the LineageOS system components when they are shown to the user. -->
-    <string name="lineageos_system_label">Sistema LineageOS</string>
+    <!-- Label for the crDroid system components when they are shown to the user. -->
+    <string name="lineageos_system_label">Sistema crDroid</string>
     <!-- Labels for the MODIFY_PROFILES permission. -->
     <string name="permlab_modifyProfiles">modificar perfiles del sistema</string>
     <string name="permdesc_modifyProfiles">Permite qu\'una aplicación modifique los perfiles del sistema.</string>
     <!-- Labels for the HARDWARE_ABSTRACTION_ACCESS permission. -->
     <string name="permlab_useHardwareFramework">usar framework de hardware</string>
-    <string name="permdesc_useHardwareFramework">Permite qu\'una aplicación acceda al framework de hardware de LineageOS.</string>
+    <string name="permdesc_useHardwareFramework">Permite qu\'una aplicación acceda al framework de hardware de crDroid.</string>
     <!-- Labels for the WRITE_SETTINGS permission -->
     <string name="permlab_writeSettings">modificar la configuración del sistema de Lineage</string>
     <string name="permdesc_writeSettings">Permite qu\'una aplicación modifique los axustes del sistema de Lineage.</string>
@@ -124,12 +124,12 @@
     <string name="permdesc_manageRemotePrefs">Permite qu\'una aplicación xestione axustes remotos</string>
     <!-- About device screen, build date -->
     <string name="build_date">Data de la compilación</string>
-    <!-- About device screen, LineageOS API Level -->
-    <string name="lineage_api_level">Nivel de l\'API de LineageOS</string>
-    <!-- About device screen, LineageOS updates -->
-    <string name="lineage_updates">Anovamientos de LineageOS</string>
-    <!-- About device screen, LineageOS version -->
-    <string name="lineage_version">Versión de LineageOS</string>
+    <!-- About device screen, crDroid API Level -->
+    <string name="lineage_api_level">Nivel de l\'API de crDroid</string>
+    <!-- About device screen, crDroid updates -->
+    <string name="lineage_updates">Anovamientos de crDroid</string>
+    <!-- About device screen, crDroid version -->
+    <string name="lineage_version">Versión de crDroid</string>
     <!-- About device screen, vendor security patch -->
     <string name="lineage_vendor_security_patch">Nivel de parche de seguridá del fornidor</string>
     <!-- General purpose use "unknown" string -->

@@ -17,8 +17,8 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <!-- Label for the LineageOS system components when they are shown to the user. -->
-    <string name="lineageos_system_label">System LineageOS</string>
+    <!-- Label for the crDroid system components when they are shown to the user. -->
+    <string name="lineageos_system_label">System crDroid</string>
     <!-- Labels for the MODIFY_PROFILES permission. -->
     <string name="permlab_modifyProfiles">addasu proffiliau system</string>
     <string name="permdesc_modifyProfiles">Mae\'n caniatáu i ap addasu proffiliau system.</string>
@@ -27,10 +27,10 @@
     <string name="permdesc_useHardwareFramework">Mae\'n caniatáu i ap gyrchu fframwaith caledwedd Lineage.</string>
     <!-- Labels for the WRITE_SETTINGS permission -->
     <string name="permlab_writeSettings">addasu gosodiadau system Lineage</string>
-    <string name="permdesc_writeSettings">Mae\'n caniatáu i ap addasu gosodiadau system LineageOS.</string>
+    <string name="permdesc_writeSettings">Mae\'n caniatáu i ap addasu gosodiadau system crDroid.</string>
     <!-- Labels for the WRITE_SECURE_SETTINGS permission -->
     <string name="permlab_writeSecureSettings">addasu gosodiadau system ddiogel Lineage</string>
-    <string name="permdesc_writeSecureSettings">Mae\'n caniatáu i ap addasu gosodiadau system ddiogel LineageOS. Dim i\'w ddefnyddio gan apiau arferol.</string>
+    <string name="permdesc_writeSecureSettings">Mae\'n caniatáu i ap addasu gosodiadau system ddiogel crDroid. Dim i\'w ddefnyddio gan apiau arferol.</string>
     <!-- Labels for the PROTECTED_APP permission. -->
     <string name="permlab_protectedApp">ychwanegu a thynnu apiau i warchod apiau</string>
     <string name="permdesc_protectedApp">Mae\'n caniatáu i ap nodi apiau eraill fel wedi eu diogelu ac i\'w cloi nhw.</string>
@@ -124,12 +124,12 @@
     <string name="permdesc_manageRemotePrefs">Mae\'n caniatáu ap i reoli gosodiadau o bell.</string>
     <!-- About device screen, build date -->
     <string name="build_date">Dyddiad adeiledd</string>
-    <!-- About device screen, LineageOS API Level -->
-    <string name="lineage_api_level">Lefel API LineageOS</string>
-    <!-- About device screen, LineageOS updates -->
-    <string name="lineage_updates">Diweddariadau LineageOS</string>
-    <!-- About device screen, LineageOS version -->
-    <string name="lineage_version">Fersiwn LineageOS</string>
+    <!-- About device screen, crDroid API Level -->
+    <string name="lineage_api_level">Lefel API crDroid</string>
+    <!-- About device screen, crDroid updates -->
+    <string name="lineage_updates">Diweddariadau crDroid</string>
+    <!-- About device screen, crDroid version -->
+    <string name="lineage_version">Fersiwn crDroid</string>
     <!-- About device screen, vendor security patch -->
     <string name="lineage_vendor_security_patch">Lefel patsh diogelwch gwneuthurwr</string>
     <!-- General purpose use "unknown" string -->
